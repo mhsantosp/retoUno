@@ -6,7 +6,6 @@
 }
 
 header{
-    margin: 0;
     padding: 50px;
     background-image: url(./images/bg-hero-desktop.svg);
 }
@@ -26,13 +25,14 @@ header{
 }
 
 .text-container{
+    max-width: 100%;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
 .text-header{
     max-width: 550px;
-    margin: auto;
 }
 
 h1{
@@ -40,16 +40,17 @@ h1{
 }
 
 #btn-header{
+    background-color:var(--Pink);
     border-radius: 50px;
-    padding: 6px 20px 6px 20px;
-    border: 0;
-    background-color: var(--Pink);
-    font-weight: bold;
-    color: var(--Pale-Cyan);
+    border: none;
+    box-shadow: 1px 1px 3px var(--Dark-Cyan);
+    padding: 6px 40px 6px 40px;
+    color: white;
+    
 }
 
 .image-header{
-    max-width: 750px;
+    max-width: 600px;
 
 }
 
