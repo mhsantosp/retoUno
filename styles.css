@@ -31,10 +31,6 @@ header{
     justify-content: space-around;
 }
 
-.text-header{
-    max-width: 550px;
-    padding-right:48px;
-}
 
 h1{
     font-weight: bold;
@@ -50,11 +46,25 @@ h1{
     
 }
 
-.image-header{
-    max-width: 670px;
-
-}
-
 .imagen-web{
     max-width: 100%;
+}
+
+.text-1{
+    display: flex;
+}
+
+.img-text{
+    max-width: 100%;
+}
+
+.card{
+    margin-top: 50px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 1px 1px 4px var(--Dark-Cyan);
+}
+
+#card-body{
+    padding: 60px;
 }
