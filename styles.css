@@ -1,0 +1,47 @@
+:root{
+  /*Colores*/
+  --btn-pink: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+}
+
+body {
+  font-size: 18px;
+}
+
+header nav {
+  background-color: transparent;
+  padding: 3rem;
+  /* border: 1px solid blue; */
+}
+
+nav button.btn {
+  padding: .25rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: white;
+}
+nav button.btn:hover {
+  color: #fff;
+  background-color: #848c92;
+}
+
+#hero {
+  background-image: url("./images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-pale-cyan);
+  padding-top: 6rem;
+}
+
+.btn.btn-get {
+  background-color: var(--btn-pink);
+  padding: .75rem 3rem;
+  border-radius: 50px;
+  color: white;
+}
+
+#card .card {
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 2.5rem;
+}
