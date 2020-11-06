@@ -58,7 +58,7 @@ h1{
     max-width: 100%;
 }
 
-.card-section{
+.con-section{
     width: 100%;
     margin-top: 100px;
 }
@@ -72,4 +72,12 @@ h1{
 
 #card-body{
     padding: 60px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.pa-text{
+    color: var(--Grayish-Blue);
 }
