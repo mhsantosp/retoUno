@@ -1,0 +1,138 @@
+:root {
+  /*Colores*/
+  --btn-pink: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+body {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header nav {
+  background-color: #ffffff5c;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  width: 50%;
+  margin: 0;
+}
+nav button.btn {
+  padding: 0.25rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: white;
+}
+
+nav button.btn:hover {
+  color: #fff;
+  background-color: #848c92;
+}
+
+#hero {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-pale-cyan);
+  padding-top: 6rem;
+  align-items: center;
+  margin-bottom: 10rem;
+  height: 100vh;
+}
+
+h1, h2, h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.btn.btn-get {
+  background-color: var(--btn-pink);
+  padding: 0.75rem 2.5rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+}
+.btn.btn-get:hover {
+  opacity: .8;
+}
+
+#card .card {
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 2.5rem;
+}
+
+#card .card .card-body > p.card-text {
+  color: var(--Grayish-Blue);
+}
+
+.ready {
+  max-width: 700px;
+  position: relative;
+  top: 140px;
+}
+
+.ready .card-body {
+  padding: 4rem 5rem;
+}
+
+.ready .card-body h2 {
+  margin-bottom: 1.5rem;
+}
+
+.footer-logo {
+  width: fit-content;
+}
+
+img.img-fluid.logo {
+  width: 80%;
+}
+
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: white;
+  padding-top: 10rem;
+}
+
+footer img {
+  width: max-content;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+footer ul li {
+  display: flex;
+  align-items: baseline;
+}
+
+footer ul li img {
+  height: max-content;
+  padding-right: 1.5rem;
+}
+footer p > a {
+  color: white;
+}
+
+footer .redes a {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px;
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+footer .redes a i.fab {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
